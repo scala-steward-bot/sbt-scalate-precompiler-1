@@ -49,7 +49,7 @@ lazy val plugin = projectMatrix
   .settings(
     name := "sbt-scalate-precompiler",
     sbtPlugin := true,
-    addSbtPlugin("com.github.sbt" % "sbt2-compat" % "0.1.0"),
+    addSbtPlugin("com.github.sbt" % "sbt2-compat" % "0.2.0"),
     scalacOptions ++= {
       scalaBinaryVersion.value match {
         case "3" =>
